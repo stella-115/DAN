@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import { Outlet } from "react-router-dom"
-import { Footer, Header } from "../component/block"
+import { Header } from "../component/block"
 
 const HomeLayout = () => {
   return (
@@ -10,7 +10,7 @@ const HomeLayout = () => {
 
         <Outlet/>
 
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
