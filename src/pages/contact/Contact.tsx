@@ -58,7 +58,7 @@ const Contact = () => {
             <input type="text" placeholder="Message" className="outline-none mt-5 md:w-200 w-65 md:h-50 h-20 border border-red-600 md:rounded-[50px] rounded-[30px] pl-5"/>
           </div>
           <div className="md:flex flex  md:justify-normal justify-center">
-               <button className=" mt-5 md:w-200 w-65 h-12 border bg-red-600  rounded-[100px] text-white font-bold hover:bg-gray-500 " >
+               <button className=" mt-5 md:mb-5 mb-20 md:w-200 w-65 h-12 border bg-red-600  rounded-[100px] text-white font-bold hover:bg-gray-500 " >
             Submit
           </button>
           </div>
