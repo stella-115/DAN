@@ -99,13 +99,16 @@ const Contact: React.FC = () => {
     ref={sectionRef}
      className="w-full min:h-screen flex justify-center items-center  ">
       <div className="w-[90%]  ">
-       <div className=" md:text-[60px] text-[40px]  text-red-600 flex justify-center font-bold animate-bounce md:mt-30  mt-20 md:mb-10 mb-5">
+       <div className=" md:text-[60px] text-[40px]  text-red-600 flex justify-center font-bold animate-bounce md:mt-30  mt-20 md:mb-10 mb-5" >
         Contact <span className="text-blue-950 pl-5"> Us
           </span>
+          
       </div>
-        <div className="md:flex gap-10">
+        <div className="md:flex gap-10 "> 
 
-           <div>
+           <div   className={`transform transition-all duration-1000 ${
+              isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+            }`}>
           <div className="flex md:justify-normal justify-center items-center md:gap-7 gap-3 mb-5">
             <h1 className="text-red-600 text-2xl"> <FaPhoneAlt /> </h1>
             <h1 className=" font-bold">  MOBILE NUMBER </h1>
