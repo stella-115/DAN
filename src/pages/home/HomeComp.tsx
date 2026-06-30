@@ -3,7 +3,6 @@
 import About from "./About"
 import Card from "./Card"
 import Client from "./Client"
-// import Contact from "./Contact"
 import Core from "./Core"
 import Executive from "./Executive"
 import Hero from "./Hero"
@@ -24,7 +23,6 @@ const HomeComp = () => {
         <Client/>
         <Card/>
         <Executive/>
-        {/* <Contact/> */}
     </div>
   )
 }
