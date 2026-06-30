@@ -65,9 +65,9 @@ const Executive = () => {
                 alt="Dan Olu-Williams - Executive Lead"
                 className="relative w-64 md:w-72 rounded-2xl shadow-2xl border-4 border-[#EC3237]/50 hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute -bottom-3 -right-3 bg-[#EC3237] text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
+              {/* <div className="absolute -bottom-3 -right-3 bg-[#EC3237] text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
                 CEO
-              </div>
+              </div> */}
             </div>
           </div>
 

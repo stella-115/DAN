@@ -6,7 +6,6 @@ import {
   FaHandsHelping, 
   FaUniversity, 
   FaChurch,
-  FaUserTie
 } from 'react-icons/fa';
 
 const Client = () => {
@@ -42,7 +41,6 @@ const Client = () => {
     { name: 'Non-Governmental Organizations', icon: <FaHandsHelping className="text-3xl" /> },
     { name: 'Educational Institutions', icon: <FaUniversity className="text-3xl" /> },
     { name: 'Faith-Based Organizations', icon: <FaChurch className="text-3xl" /> },
-    { name: 'Professional Associations', icon: <FaUserTie className="text-3xl" /> },
   ];
 
   return (
