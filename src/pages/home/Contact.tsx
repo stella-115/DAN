@@ -76,11 +76,11 @@ const Contact = () => {
       className="w-full min-h-screen bg-linear-to-br from-[#EC3237] via-[#d42d32] to-[#b8252a] flex justify-center items-center py-10 px-4 relative overflow-hidden"
     >
       {/* Animated background elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      {/* <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-white/5 rounded-full blur-3xl animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-white/5 rounded-full blur-3xl animate-pulse delay-500"></div>
-      </div>
+      </div> */}
 
       <div className="w-full max-w-6xl relative z-10">
         {/* Header Section */}
@@ -101,7 +101,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {contactInfo.map((info, index) => (
             <div
               key={index}
@@ -139,7 +139,7 @@ const Contact = () => {
               </a>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Linktree Section */}
         <div className="mt-8 opacity-0 translate-y-10 transition-all duration-700 ease-out delay-500" 

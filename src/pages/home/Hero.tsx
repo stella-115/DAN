@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import {  FaPlay, FaChevronRight, FaStar } from 'react-icons/fa';
-import logo2 from "../../assets/png post.png";
+import logo2 from "../../assets/about.jpg";
 
 const Hero = () => {
   // const containerRef = useRef<HTMLDivElement>(null);
@@ -57,21 +57,21 @@ const Hero = () => {
             className="flex-1 opacity-0 translate-y-10 transition-all duration-700 ease-out"
           >
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-4 py-2 mb-6">
+            {/* <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-4 py-2 mb-6">
               <span className="w-2 h-2 bg-[#EC3237] rounded-full animate-pulse"></span>
               <span className="text-white/70 text-sm font-medium uppercase tracking-wider">
                 Dan Williams Global
               </span>
-            </div>
+            </div> */}
 
             <h1 className="text-white md:text-6xl text-4xl font-extrabold leading-tight">
               <span className="bg-linear-to-r from-white to-white/80 bg-clip-text text-transparent">
-                CORPORATE
+                EQUIPPING INDIVIDUAL
               </span>
               <br />
               <span className="relative inline-block mt-1">
                 <span className="bg-linear-to-r from-[#EC3237] to-[#ff6b6b] bg-clip-text text-transparent">
-                  PROFILE
+                  BUILDING TEAMS
                 </span>
                 <span className="absolute -bottom-2 left-0 w-full h-1 bg-linear-to-r from-[#EC3237] to-transparent rounded-full"></span>
               </span>
@@ -101,15 +101,15 @@ const Hero = () => {
               className="flex gap-8 mt-10 pt-8 border-t border-white/10 opacity-0 translate-y-10 transition-all duration-700 ease-out delay-300"
             >
               <div>
-                <p className="text-white text-2xl font-bold">10+</p>
+                <p className="text-white text-2xl font-bold">3+</p>
                 <p className="text-white/50 text-sm">Years Experience</p>
               </div>
               <div>
-                <p className="text-white text-2xl font-bold">500+</p>
+                <p className="text-white text-2xl font-bold">1000+</p>
                 <p className="text-white/50 text-sm">Happy Clients</p>
               </div>
               <div>
-                <p className="text-white text-2xl font-bold">50+</p>
+                <p className="text-white text-2xl font-bold">5+</p>
                 <p className="text-white/50 text-sm">Awards Won</p>
               </div>
             </div>
@@ -128,7 +128,7 @@ const Hero = () => {
                 <img 
                   src={logo2} 
                   alt="Dan Williams Global Corporate Profile" 
-                  className="w-full h-auto object-contain rounded-2xl transform hover:scale-105 transition-transform duration-500"
+                  className="w-120 h-auto object-contain rounded-2xl transform hover:scale-105 transition-transform duration-500"
                 />
                 
                 {/* Floating Badge */}
@@ -139,7 +139,7 @@ const Hero = () => {
                     </div>
                     <div>
                       <p className="text-white text-xs font-semibold">Trusted</p>
-                      <p className="text-[#EC3237] text-[10px]">Since 2015</p>
+                      <p className="text-[#EC3237] text-[10px]">Since 2023</p>
                     </div>
                   </div>
                 </div>

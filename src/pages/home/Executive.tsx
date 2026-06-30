@@ -39,8 +39,8 @@ const Executive = () => {
   }, []);
 
   const socialLinks = [
-    { icon: <FaLinkedinIn />, url: 'https://linkedin.com/in/danoluwilliams', label: 'LinkedIn' },
-    { icon: <FaInstagram />, url: 'https://instagram.com/danoluwilliams', label: 'Instagram' },
+    { icon: <FaLinkedinIn />, url: 'www.linkedin.com/in/danwilliams-global-bba8b8403', label: 'LinkedIn' },
+    { icon: <FaInstagram />, url: 'https://www.instagram.com/danwilliamsglobal?igsh=aTc1NzJ0OWthZzN4', label: 'Instagram' },
     { icon: <FaFacebookF />, url: 'https://facebook.com/danoluwilliams', label: 'Facebook' },
     { icon: <FaTiktok />, url: 'https://tiktok.com/@danoluwilliams', label: 'TikTok' },
     { icon: <FaYoutube />, url: 'https://youtube.com/danoluwilliams', label: 'YouTube' },
@@ -121,25 +121,25 @@ const Executive = () => {
           ref={socialRef}
           className="opacity-0 translate-y-10 transition-all duration-700 ease-out delay-500 mt-12 flex justify-center"
         >
-          <div className="bg-[#000D5E] rounded-2xl p-6 shadow-2xl border border-white/10 w-full max-w-md">
-            <div className="flex justify-center gap-3 flex-wrap">
+          <div className="bg-[#000D5E] rounded-2xl p-6 shadow-2xl border border-white/10  w-65 h-30 max-w-md">
+            <div className="flex justify-center gap-2 flex-wrap ">
               {socialLinks.map((item, index) => (
                 <a
-                  key={index}
+                  key={index} 
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-[#000D5E] hover:bg-[#EC3237] hover:text-white transition-colors duration-300 w-10 h-10 rounded-lg flex items-center justify-center text-xl"
+                  className=" text-white hover:text-red-600 transition-colors duration-300 w-5 h-5 rounded-lg flex items-center justify-center text-xl"
                   aria-label={item.label}
                 >
                   {item.icon}
                 </a>
               ))}
             </div>
-            <h3 className="text-white text-2xl font-bold text-center mt-4 tracking-wider">
+            <h3 className="text-white text-[18px] font-bold text-center mt-4 tracking-wider">
               DAN OLU-WILLIAMS
             </h3>
-            <p className="text-white/50 text-sm text-center mt-1">Executive Director</p>
+            <p className="text-white/50 text-sm text-center mt-1">Executive Lead</p>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
 import About from "./About"
 import Card from "./Card"
 import Client from "./Client"
-import Contact from "./Contact"
+// import Contact from "./Contact"
 import Core from "./Core"
 import Executive from "./Executive"
 import Hero from "./Hero"
@@ -16,14 +16,15 @@ const HomeComp = () => {
     <div>
         <Hero/>
         <About/>
-        <Vision/>
         <Core/>
+        <Vision/>
+        
         <Training/>
         <Programme/>
         <Client/>
         <Card/>
         <Executive/>
-        <Contact/>
+        {/* <Contact/> */}
     </div>
   )
 }

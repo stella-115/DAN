@@ -46,7 +46,7 @@ const Client = () => {
   ];
 
   return (
-    <section className="w-full bg-[#EC3237] py-12 md:py-20">
+    <section className="w-full bg-red-600 py-12 md:py-20">
       <div className="w-full bg-[#000D5E] rounded-t-[60px] md:rounded-t-[80px] py-12 md:py-20 px-4">
         <div className="max-w-5xl mx-auto">
           {/* Header */}

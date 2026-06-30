@@ -61,7 +61,7 @@ const Programme = () => {
       style={{ backgroundImage: "url('/img/8.png')" }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#EC3237]/70 backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-red-600 backdrop-blur-sm"></div>
 
       {/* Content */}
       <div className="relative z-10 w-full min-h-screen flex justify-center items-center py-16 md:py-24 px-4">
