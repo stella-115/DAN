@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
 
         // 'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
 
-        'template_f0v3lum', 
+        'template_93t9e19',
         {
           from_name: formData.name,
           from_email: formData.email,
