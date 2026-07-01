@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import {  FaPlay, FaChevronRight, FaStar } from 'react-icons/fa';
 import logo2 from "../../assets/about.jpg";
+import { NavLink } from 'react-router-dom';
 
 const Hero = () => {
   // const containerRef = useRef<HTMLDivElement>(null);
@@ -83,10 +84,14 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8">
-              <button className="group bg-[#EC3237] hover:bg-[#d42d32] text-white px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#EC3237]/30">
+              <NavLink to="/service">
+                 <button className="group bg-[#EC3237] hover:bg-[#d42d32] text-white px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#EC3237]/30">
                 <span>Explore More</span>
                 <FaChevronRight className="group-hover:translate-x-1 transition-transform" />
               </button>
+
+              </NavLink>
+             
               <button className="group border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105">
                 <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-[#EC3237] transition-colors">
                   <FaPlay className="text-sm ml-0.5" />
