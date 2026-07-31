@@ -50,7 +50,7 @@ const Gallery = () => {
 
           {/* Inner Gallery Container */}
           <div className="bg-white rounded-tl-[30px] md:rounded-tl-[60px] rounded-br-[30px] md:rounded-br-[60px] p-4 md:p-8">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               {images.map((img, index) => (
                 <div
                   key={index}
