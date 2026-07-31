@@ -5,6 +5,8 @@ import ServiceLayout from "../layout/ServiceLayout";
 import Service from "../pages/services/Service";
 import ContactLayout from "../layout/ContactLayout";
 import Contact from "../pages/contact/Contact";
+import GalleryLayout from "../layout/GalleryLayout";
+import Gallery from "../pages/gallery/Gallery";
 
 
 export const element = createBrowserRouter (
@@ -31,6 +33,14 @@ export const element = createBrowserRouter (
             children:[{
                 index: true,
                 element: <Contact/>
+            }]
+        },
+         {
+            path: "/gallery",
+            element: <GalleryLayout/>,
+            children:[{
+                index: true,
+                element: <Gallery/>
             }]
         }
     ]

@@ -2,14 +2,14 @@ import { useEffect, useRef } from 'react';
 import { 
   FaUsers, 
   FaUserTie, 
-  FaHeadset, 
+  // FaHeadset, 
   FaRocket, 
-  FaLightbulb, 
+  // FaLightbulb, 
   FaChalkboardTeacher,
-  FaPassport,
+  // FaPassport,
   FaCode,
-  FaTrademark,
-  FaCertificate,
+  // FaTrademark,
+  // FaCertificate,
   FaBuilding,
   FaPalette
 } from 'react-icons/fa';
@@ -57,12 +57,12 @@ const Training = () => {
       description: 'Develop strong leaders and cohesive teams that deliver results.',
       delay: 'delay-200',
     },
-    {
-      title: 'Customer Service Excellence',
-      icon: <FaHeadset className="text-3xl" />,
-      description: 'Deliver exceptional customer experiences that build loyalty.',
-      delay: 'delay-300',
-    },
+    // {
+    //   title: 'Customer Service Excellence',
+    //   icon: <FaHeadset className="text-3xl" />,
+    //   description: 'Deliver exceptional customer experiences that build loyalty.',
+    //   delay: 'delay-300',
+    // },
     {
       title: 'Startup Formation & Development',
       icon: <FaRocket className="text-3xl" />,
@@ -70,26 +70,31 @@ const Training = () => {
       delay: 'delay-100',
     },
     {
-      title: 'Entrepreneur Capacity Building',
-      icon: <FaLightbulb className="text-3xl" />,
-      description: 'Equip entrepreneurs with skills and knowledge for success.',
-      delay: 'delay-200',
-    },
-    {
       title: 'Staff Retreats & Growth Conferences',
       icon: <FaChalkboardTeacher className="text-3xl" />,
       description: 'Inspire and align your team through transformative retreats.',
       delay: 'delay-300',
     },
+    // {
+    //   title: 'Entrepreneur Capacity Building',
+    //   icon: <FaLightbulb className="text-3xl" />,
+    //   description: 'Equip entrepreneurs with skills and knowledge for success.',
+    //   delay: 'delay-200',
+    // },
+    
   ];
 
+  
+
   const otherServices = [
-    { name: 'Int\'l Passport', icon: <FaPassport /> },
+    { name: 'Business Incorporation & Compliance Services', icon: <FaBuilding /> }, 
     { name: 'Web Development', icon: <FaCode /> },
-    { name: 'Trademarking', icon: <FaTrademark /> },
-    { name: 'SCUML Certification', icon: <FaCertificate /> },
-    { name: 'CAC Registration', icon: <FaBuilding /> },
-    { name: 'Corporate Branding', icon: <FaPalette /> },
+     { name: 'Corporate Branding', icon: <FaPalette /> },
+    // { name: 'Trademarking', icon: <FaTrademark /> },
+    // { name: 'SCUML Certification', icon: <FaCertificate /> },
+    // { name: 'CAC Registration', icon: <FaBuilding /> },
+    // { name: 'Int\'l Passport', icon: <FaPassport /> },
+   
   ];
 
   return (
@@ -119,7 +124,7 @@ const Training = () => {
         </div>
 
         {/* Training Programs Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-15 mt-8">
           {trainingPrograms.map((program, index) => (
             <div
               key={index}
@@ -178,7 +183,7 @@ const Training = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-6">
             {otherServices.map((service, index) => (
               <div
                 key={index}

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes, FaHome, FaServicestack, FaEnvelope } from 'react-icons/fa';
 import logo from "../../assets/png post 2.png";
+import { GrGallery } from 'react-icons/gr';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,8 @@ const Header = () => {
     { to: '/', label: 'Home', icon: <FaHome /> },
     { to: '/service', label: 'Services', icon: <FaServicestack /> },
     { to: '/contact', label: 'Contact', icon: <FaEnvelope /> },
+    { to: '/gallery', label: 'Gallery', icon: <GrGallery /> },
+
   ];
 
   return (

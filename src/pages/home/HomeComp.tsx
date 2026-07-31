@@ -1,7 +1,7 @@
 // import React from 'react'
 
 import About from "./About"
-import Card from "./Card"
+// import Card from "./Card"
 import Client from "./Client"
 import Core from "./Core"
 import Executive from "./Executive"
@@ -21,7 +21,7 @@ const HomeComp = () => {
         <Training/>
         <Programme/>
         <Client/>
-        <Card/>
+        {/* <Card/> */}
         <Executive/>
     </div>
   )
