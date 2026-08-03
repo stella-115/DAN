@@ -22,9 +22,8 @@ const Header = () => {
   const navLinks = [
     { to: '/', label: 'Home', icon: <FaHome /> },
     { to: '/service', label: 'Services', icon: <FaServicestack /> },
-    { to: '/contact', label: 'Contact', icon: <FaEnvelope /> },
     { to: '/gallery', label: 'Gallery', icon: <GrGallery /> },
-
+    { to: '/contact', label: 'Contact', icon: <FaEnvelope /> },
   ];
 
   return (
