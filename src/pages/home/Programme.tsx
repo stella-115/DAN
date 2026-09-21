@@ -64,7 +64,7 @@ const Programme = () => {
       <div className="absolute inset-0 bg-red-600 backdrop-blur-sm"></div>
 
       {/* Content */}
-      <div className="relative z-10 w-full min-h-screen flex justify-center items-center py-16 md:py-24 px-4">
+      <div className="relative z-10 w-full min-h-screen flex justify-center items-center pt-10 md:pt-10  px-4">
         <div className="max-w-6xl w-full">
           {/* Title */}
           <div
@@ -112,10 +112,10 @@ const Programme = () => {
           </div>
 
           {/* Bottom CTA */}
-          <div className="mt-12 text-center opacity-0 animate-fadeIn delay-500">
+          <div className="my-12 text-center ">
             <a
               href="/contact"
-              className="inline-block bg-[#09032E] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#0f0545] transition-colors duration-300 shadow-lg hover:shadow-xl"
+              className="inline-block bg-[#09032E] text-white px-10 py-6 rounded-full font-semibold hover:bg-[#0f0545] transition-colors duration-300 shadow-lg hover:shadow-xl"
             >
               Enroll Now
             </a>

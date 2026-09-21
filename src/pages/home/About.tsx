@@ -113,10 +113,10 @@ const About = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-linear-to-b from-gray-50 to-white py-1 md:py-0 px-4">
+    <div className="w-full min-h-screen bg-linear-to-b from-gray-50 to-white px-4 pt-10">
       <div className="max-w-5xl mx-auto">
         {/* Header Section */}
-        <div className="text-center mb-16 opacity-0 animate-fadeIn">
+        <div className="text-center mb-16 ">
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#09032E] mb-4">
             About <span className="text-[#EC3237]">Us</span>
           </h1>
@@ -161,7 +161,7 @@ const About = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-16 text-center opacity-0 animate-fadeIn delay-500">
+        <div className="mt-16 mb-5 text-center ">
           <p className="text-gray-600 text-sm md:text-base">
             Ready to transform your organization?{' '}
             <a href="/contact" className="text-[#EC3237] font-semibold hover:underline">
