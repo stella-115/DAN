@@ -34,7 +34,7 @@ const Gal1 = () => {
   return (
     <div className="w-full px-4 sm:px-6 lg:px-8 font-sans">
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6 mb-4 text-center sm:text-left">
-        Unveiling Submit 2024
+        Unveiling Submit 2024,
       </h2>
 
       <div className="relative w-full max-w-3xl mx-auto overflow-hidden rounded-lg shadow-lg">
