@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import slide1 from "../../assets/summit2024/IMG-20240727-WA0054.jpg";
-import slide2 from "../../assets/summit2024/IMG-20240727-WA0090.jpg";
-import slide3 from "../../assets/summit2024/IMG-20240727-WA0133.jpg";
-import slide4 from "../../assets/summit2024/IMG-20240727-WA0168.jpg";
-import slide5 from "../../assets/summit2024/IMG-20240727-WA0204.jpg";
-import slide6 from "../../assets/summit2024/IMG-20240727-WA0245.jpg";
-import slide7 from "../../assets/summit2024/IMG-20240727-WA0255.jpg";
-import slide8 from "../../assets/summit2024/IMG-20240727-WA0267.jpg";
+import slide1 from "../../assets/summit2024/sum1.jpg";
+import slide2 from "../../assets/summit2024/sum2.jpg";
+import slide3 from "../../assets/summit2024/sum3.jpg";
+import slide4 from "../../assets/summit2024/sum4.jpg";
+import slide5 from "../../assets/summit2024/sum5.jpg";
+import slide6 from "../../assets/summit2024/sum6.jpg";
+import slide7 from "../../assets/summit2024/sum7.jpg";
+import slide8 from "../../assets/summit2024/sum8.jpg";
 
 const slides = [
   { image: slide1, number: '1 / 10' },

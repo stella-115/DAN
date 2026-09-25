@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
-import slide1 from "../../assets/summit2025/10fcbcd9-4b78-4e25-965d-43bb0c535400.jpg"
-import slide2 from "../../assets/summit2025/3e470f65-4f98-44f9-bf7e-a6636370f867.jpg"
-import slide3 from "../../assets/summit2025/452299b3-ef39-48a0-90fb-438048083f30.jpg"
-import slide4 from "../../assets/summit2025/72f90177-dda3-479f-b6a7-9703790937bb.jpg"
-import slide5 from "../../assets/summit2025/bfa3e3c4-c4ec-4df1-8c06-4c2746e84340.jpg"
-import slide6 from "../../assets/summit2025/IMG_4473.jpg"
-import slide7 from "../../assets/summit2025/IMG_4558.jpg"
-import slide8 from "../../assets/summit2025/IMG_4615.jpg"
-import slide9 from "../../assets/summit2025/IMG_5017.jpg"
-import slide10 from "../../assets/summit2025/IMG_5099.jpg"
-import slide11 from "../../assets/summit2025/IMG_5113.jpg"
+import slide1 from "../../assets/summit2025/img1.jpg"
+import slide2 from "../../assets/summit2025/img2.jpg"
+import slide3 from "../../assets/summit2025/img3.jpg"
+import slide4 from "../../assets/summit2025/img4.jpg"
+import slide5 from "../../assets/summit2025/img5.jpg"
+import slide6 from "../../assets/summit2025/img6.jpg"
+import slide7 from "../../assets/summit2025/img7.jpg"
+import slide8 from "../../assets/summit2025/img8.jpg"
+import slide9 from "../../assets/summit2025/img9.jpg"
+import slide10 from "../../assets/summit2025/img10.jpg"
+import slide11 from "../../assets/summit2025/img11.jpg"
 
 
 const slides = [

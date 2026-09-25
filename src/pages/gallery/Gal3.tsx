@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
-import slide1 from "../../assets/summit2026/DSC_0082-5.jpg";
-import slide2 from "../../assets/summit2026/DSC_0087-6.jpg";
-import slide3 from "../../assets/summit2026/DSC_0093-7.jpg";
-import slide4 from "../../assets/summit2026/DSC_0121-6.jpg";
-import slide5 from "../../assets/summit2026/DSC_0127-6.jpg";
-import slide6 from "../../assets/summit2026/DSC_0130-5.jpg";
-import slide7 from "../../assets/summit2026/DSC_0187-4.jpg";
-import slide8 from "../../assets/summit2026/DSC_0210-4.jpg";
-import slide9 from "../../assets/summit2026/DSC_0229-4.jpg";
-import slide10 from "../../assets/summit2026/DSC_0277-3.jpg";
+import slide1 from "../../assets/summit2026/dsc1.jpg";
+import slide2 from "../../assets/summit2026/dsc2.jpg";
+import slide3 from "../../assets/summit2026/dsc3.jpg";
+import slide4 from "../../assets/summit2026/dsc4.jpg";
+import slide5 from "../../assets/summit2026/dsc5.jpg";
+import slide6 from "../../assets/summit2026/dsc6.jpg";
+import slide7 from "../../assets/summit2026/dsc7.jpg";
+import slide8 from "../../assets/summit2026/dsc8.jpg";
+import slide9 from "../../assets/summit2026/dsc9.jpg";
+import slide10 from "../../assets/summit2026/dsc10.jpg";
 
 const slides = [
   { image: slide1,  number: '1 / 10' },
