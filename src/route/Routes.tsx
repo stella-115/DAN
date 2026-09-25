@@ -6,7 +6,7 @@ import Service from "../pages/services/Service";
 import ContactLayout from "../layout/ContactLayout";
 import Contact from "../pages/contact/Contact";
 import GalleryLayout from "../layout/GalleryLayout";
-import Gallery from "../pages/gallery/Gallery";
+import GalComp from "../pages/gallery/GalComp";
 
 
 export const element = createBrowserRouter (
@@ -40,7 +40,7 @@ export const element = createBrowserRouter (
             element: <GalleryLayout/>,
             children:[{
                 index: true,
-                element: <Gallery/>
+                element: <GalComp/>
             }]
         }
     ]
